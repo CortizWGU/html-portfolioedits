@@ -1,0 +1,57 @@
+/* Background, (Margin, Padding, Border) */
+section {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f3f5;
+    padding: 20px;
+}
+
+/* Class Selector */
+.nav-link {
+    color: rgb(37, 165, 4);
+    text-decoration: none;
+}
+
+/* ID Selector */
+#date {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Descendant Selector */
+header nav ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+    color: darkblue;
+}
+
+/* Typography (font, color, formatting)*/
+h1, h2, h3 {
+    color: #f80303;
+}
+p {
+    color: #ca0d0d;
+}
+
+/* List-style properties */
+ul {
+    list-style-type: square;
+}
